@@ -1,0 +1,25 @@
+.contentNav {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  padding: 0 10px 0 0;
+  background: orange;
+  z-index: 1000;
+  width: 100%;
+  &.app-client-viewer {
+      background: white;
+  }
+  .contentLogo {
+      width: 250px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      background: #F2F2F2;
+      .logo {
+          width: 135px;
+          content: url(../../../assets/logo.jpg);
+          margin: 0 auto;
+      }
+  } // .contentLogo
+}
