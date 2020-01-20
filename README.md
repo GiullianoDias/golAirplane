@@ -1,6 +1,6 @@
 Parte Web
 
-     Executar o seguinte comando: npm i
+     Entrar na parta do projeto e executar o seguinte comando: npm i
      
      Para rodar o projeto digite: ng serve
 
